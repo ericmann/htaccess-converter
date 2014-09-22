@@ -17,7 +17,7 @@ function readLine( row ) {
 		return;
 	}
 
-	output.write( 'RedirectRule\t^' + oldPath + '$\t' + newPath + '\t[R=301,L,NC]\r\n' );
+	output.write( 'Redirect 301 ' + oldPath + ' ' + newPath + '\r\n' );
 }
 
 /**
