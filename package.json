@@ -1,0 +1,20 @@
+{
+	"name": "htaccess-generator",
+	"version": "0.1.0",
+	"description": "Convert a CSV file to an .htaccess file",
+	"main": "index.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"homepage": "",
+	"author": "Eric Mann",
+	"license": "MIT",
+	"engines": {
+		"node": ">=0.10"
+	},
+	"dependencies": {
+		"fast-csv": "~0.5.2"
+	}
+}
