@@ -1,4 +1,4 @@
-.htaccess Generator
+.htaccess Converter
 ===================
 
-Generate an .htaccess file given a CSV of root-relative redirects.
+Convert a CSV of root-relative redirects to a set of .htaccess rewrites.
