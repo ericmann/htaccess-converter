@@ -2,7 +2,7 @@
 	"name": "htaccess-generator",
 	"version": "0.1.0",
 	"description": "Convert a CSV file to an .htaccess file",
-	"main": "index.js",
+	"main": "htaccess.js",
 	"scripts": {},
 	"repository": {
 		"type": "git",
