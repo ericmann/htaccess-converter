@@ -1,4 +1,5 @@
 var fs = require( 'fs' ),
+	os = require( 'os' ),
 	csv = require( 'fast-csv' ),
 	stream,
 	output;
@@ -17,7 +18,7 @@ function readLine( row ) {
 		return;
 	}
 
-	output.write( 'Redirect 301 ' + oldPath + ' ' + newPath + '\r\n' );
+	output.write( 'Redirect 301 ' + oldPath + ' ' + newPath + os.EOL );
 }
 
 /**
